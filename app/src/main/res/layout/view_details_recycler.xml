@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/townRecyclerDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lundi"
+            android:gravity="center"
+            android:textSize="17dp"
+            android:background="#1F3A93"
+            android:textColor="#FFFFFF"/>
+
+        <ImageView
+            android:id="@+id/townRecyclerWeather"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/townRecyclerTemp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="20 C°"
+            android:textSize="15dp"
+            android:gravity="center"
+            android:textColor="#FF0000"/>
+</LinearLayout>
